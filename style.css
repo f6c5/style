@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -973,7 +972,6 @@ a {
   filter: brightness(1.2);
 }
 
-
 .button-outline {
   display: inline-block;
   border-radius: 8px;
@@ -1230,6 +1228,29 @@ samp {
   unicode-bidi: bidi-override;
 }
 
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: #55cc88;
+  border-radius: 50%;
+  position: absolute;
+}
+
 .container {
   max-width: 1366px;
   min-height: 100vh;
@@ -1244,6 +1265,33 @@ samp {
   width: 100%;
   margin: 0 auto;
   padding: 15px;
+}
+
+.footerContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarContainer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.themeToggleContainer {
+  width: 52px;
+  height: 24px;
+  border: 1px solid #55cc8877;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  position: relative;
+  cursor: pointer;
 }
 
 .row {
