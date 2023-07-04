@@ -1,3 +1,3 @@
 # style
 
-[https://f6c5.github.io/style/](link)
+[link](https://f6c5.github.io/style/)
