@@ -1254,14 +1254,14 @@ samp {
   gap: 20px;
 }
 
-.links a {
+.link {
   text-decoration: none;
   color: var(--grey-900);
   font-size: 16px;
   position: relative;
 }
 
-.links a::after {
+.link::after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -1273,7 +1273,7 @@ samp {
   transition: transform 0.3s ease-in-out;
 }
 
-.links a:hover::after {
+.link:hover::after {
   transform: scaleX(1);
 }
 
