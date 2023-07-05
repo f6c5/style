@@ -90,9 +90,7 @@
   --blue-700: #0f3550;
   --blue-800: #0a314d;
   --blue-900: #092030;
-}
 
-.light {
   background-color: var(--grey-100);
   color: var(--grey-900);
 }
@@ -177,9 +175,6 @@
   --blue-700: #2e86c5;
   --blue-800: #399ce2;
   --blue-900: #4eb1f8;
-
-  background-color: var(--grey-100);
-  color: var(--grey-900);
 }
 
 *,
