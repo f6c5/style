@@ -1250,12 +1250,14 @@ samp {
 .logo {
   font-weight: bold;
   font-size: 22px;
+  padding-left: 2rem;
 }
 
 .links {
   display: flex;
   align-items: center;
   gap: 20px;
+  padding-right: 2rem;
 }
 
 .links-pinned {
