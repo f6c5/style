@@ -178,7 +178,7 @@
   --blue-800: #399ce2;
   --blue-900: #4eb1f8;
 
-  background-color: var(--grey-200);
+  background-color: var(--grey-300);
   color: var(--grey-900);
 }
 
