@@ -1317,7 +1317,7 @@ samp {
   transform: rotate(-45deg) translate(6px, -5px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .links {
     position: absolute;
     display: flex;
