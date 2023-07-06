@@ -8,9 +8,6 @@
 
 .theme {
   transition: 0.3s all ease;
-
-  background-color: var(--grey-200);
-  color: var(--grey-900);
 }
 
 :root {
@@ -181,8 +178,7 @@
   --blue-800: #399ce2;
   --blue-900: #4eb1f8;
 
-  
-  background-color: var(--grey-400);
+  background-color: var(--grey-300);
   color: var(--grey-900);
 }
 
