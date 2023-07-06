@@ -1257,7 +1257,7 @@ samp {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-right: 2rem;
+  padding-right: 5rem;
 }
 
 .links-pinned {
