@@ -93,7 +93,7 @@
 }
 
 .light {
-  background-color: var(--grey-400);
+  background-color: var(--grey-100);
   color: var(--grey-900);
 }
 
@@ -178,7 +178,7 @@
   --blue-800: #399ce2;
   --blue-900: #4eb1f8;
 
-  background-color: var(--grey-300);
+  background-color: var(--grey-400);
   color: var(--grey-900);
 }
 
