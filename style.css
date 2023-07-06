@@ -180,6 +180,10 @@
   --blue-700: #2e86c5;
   --blue-800: #399ce2;
   --blue-900: #4eb1f8;
+
+  
+  background-color: var(--grey-400);
+  color: var(--grey-900);
 }
 
 *,
