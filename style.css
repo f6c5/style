@@ -1324,7 +1324,7 @@ samp {
     flex-direction: column;
     left: 0;
     top: 0;
-    height: 89vh;
+    height: 100vh;
     padding: 20px;
     background-color: var(--grey-100);
     width: 100%;
