@@ -1532,6 +1532,71 @@ samp {
   color: #4d90fe;
 }
 
+.input textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--grey-600);
+  border-radius: 16px;
+  resize: none;
+  background-color: transparent;
+  color: var(--grey-900);
+  min-height: 120px;
+}
+
+.input textarea:not(:placeholder-shown) + label {
+  top: -20px;
+  font-size: 12px;
+  color: var(--grey-900);
+}
+
+.input textarea:focus {
+  border-color: #4d90fe;
+  outline: none;
+}
+
+.input textarea:focus + label {
+  top: -20px;
+  font-size: 12px;
+  color: #4d90fe;
+}
+
+.input select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--grey-600);
+  color: var(--grey-900);
+  border-radius: 20px;
+  background-color: transparent;
+  appearance: none;
+}
+
+.input select:focus {
+  border-color: #4d90fe;
+  outline: none;
+}
+
+.input select option {
+  color: var(--grey-300);
+}
+
+.input select option[selected] {
+  background-color: #4d90fe;
+  color: white;
+}
+
+.input select:valid + label {
+  top: -20px;
+  font-size: 12px;
+  color: var(--grey-900);
+}
+
+.input select:placeholder-shown + label {
+  top: 30px;
+  font-size: 12px;
+  color: var(--grey-600);
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
