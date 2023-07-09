@@ -295,64 +295,6 @@
 .fs-6 {
   font-size: 1rem !important;
 }
-.fst-italic {
-  font-style: italic !important;
-}
-.fst-normal {
-  font-style: normal !important;
-}
-.fw-light {
-  font-weight: 300 !important;
-}
-.fw-lighter {
-  font-weight: lighter !important;
-}
-.fw-normal {
-  font-weight: 400 !important;
-}
-.fw-bold {
-  font-weight: 700 !important;
-}
-.fw-bolder {
-  font-weight: bolder !important;
-}
-.text-start {
-  text-align: left !important;
-}
-.text-end {
-  text-align: right !important;
-}
-.text-center {
-  text-align: center !important;
-}
-.text-decoration-none {
-  text-decoration: none !important;
-}
-.text-decoration-underline {
-  text-decoration: underline !important;
-}
-.text-decoration-line-through {
-  text-decoration: line-through !important;
-}
-.text-lowercase {
-  text-transform: lowercase !important;
-}
-.text-uppercase {
-  text-transform: uppercase !important;
-}
-.text-capitalize {
-  text-transform: capitalize !important;
-}
-.text-wrap {
-  white-space: normal !important;
-}
-.text-nowrap {
-  white-space: nowrap !important;
-}
-.text-break {
-  word-wrap: break-word !important;
-  word-break: break-word !important;
-}
 
 .bg-transparent {
   background-color: transparent !important;
