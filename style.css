@@ -1499,7 +1499,7 @@ samp {
 .input input {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--grey-600);
   border-radius: 50px;
   background-color: transparent;
   color: var(--grey-900);
@@ -1510,7 +1510,7 @@ samp {
   top: 10px;
   left: 10px;
   font-size: 16px;
-  color: #aaa;
+  color: var(--grey-600);
   pointer-events: none;
   transition: 0.3s;
 }
