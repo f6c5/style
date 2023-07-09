@@ -1401,8 +1401,8 @@ samp {
 .carousel-inner {
   justify-content: center;
   width: 1000px;
-  height: 0; 
-  padding-bottom: 60%; 
+  height: 0;
+  padding-bottom: 60%;
   position: relative;
   overflow: hidden;
 }
@@ -3453,4 +3453,12 @@ samp {
 .text-break {
   word-wrap: break-word !important;
   word-break: break-word !important;
+}
+
+.fw-wrap {
+  flex-wrap: wrap;
+}
+
+.fw-no-wrap {
+  flex-wrap: nowrap;
 }
