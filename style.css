@@ -1518,7 +1518,7 @@ samp {
 .input input:not(:placeholder-shown) + label {
   top: -20px;
   font-size: 12px;
-  color: #4d90fe;
+  color: var(--grey-900);
 }
 
 .input input:focus {
