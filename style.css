@@ -1491,6 +1491,41 @@ samp {
   }
 }
 
+.input {
+  display: inline-block;
+  position: relative;
+}
+
+.input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: transparent;
+  color: var(--grey-900);
+}
+
+.input label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  color: #aaa;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input input:focus {
+  border-color: #4d90fe;
+  outline: none;
+}
+
+.input input:focus + label {
+  top: -20px;
+  font-size: 12px;
+  color: #4d90fe;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
