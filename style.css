@@ -1319,7 +1319,7 @@ samp {
 
 @media (max-width: 900px) {
   .links {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     left: 0;
@@ -1336,6 +1336,10 @@ samp {
   .burger-menu {
     display: block;
     z-index: 999;
+  }
+
+  .burger-menu.active {
+    position: fixed;
   }
 
   .show-menu .links {
