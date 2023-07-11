@@ -3656,12 +3656,11 @@ samp {
   word-wrap: break-word !important;
   word-break: break-word !important;
 }
-
-.text-truncate {
+/* .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
+} */
 
 .visible {
   visibility: visible !important;
