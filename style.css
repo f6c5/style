@@ -1511,11 +1511,11 @@ samp {
   height: 30vh;
 }
 
-.flat-card-body {
+.card-body {
   padding: 20px;
 }
 
-.flat-card-title {
+.card-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
