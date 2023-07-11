@@ -1496,6 +1496,62 @@ samp {
   }
 }
 
+.flat-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--grey-300);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0 0px 12px var(--grey-300);
+}
+
+.flat-card-img {
+  width: auto;
+  height: 30vh;
+}
+
+.flat-card-body {
+  padding: 20px;
+}
+
+.flat-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.flat-card.float {
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.flat-card.float:nth-child(odd) {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.flat-card.float:nth-child(even) {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.flat-card.float.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 800px) {
+  .flat-card {
+    display: block;
+    align-items: initial;
+  }
+
+  .flat-card-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .input {
   display: inline-block;
   position: relative;
