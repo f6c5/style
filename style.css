@@ -3561,12 +3561,6 @@ samp {
   z-index: 1020;
 }
 
-.text-truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .flex-fill {
   flex: 1 1 auto !important;
 }
@@ -3661,6 +3655,12 @@ samp {
 .text-break {
   word-wrap: break-word !important;
   word-break: break-word !important;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .visible {
