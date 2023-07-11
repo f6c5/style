@@ -1552,6 +1552,35 @@ samp {
   }
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.card {
+  height: 600px;
+  width: 100%;
+  min-width: 400px;
+  border: 1px solid var(--grey-400);
+  background-color: var(--grey-100);
+  border-radius: 6px;
+  box-shadow: 0 0px 12px var(--grey-300);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.1s linear;
+  box-shadow: 0 0 24px -5px var(--grey-700);
+}
+
+.card-img {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+}
+
 .input {
   display: inline-block;
   position: relative;
