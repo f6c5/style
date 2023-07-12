@@ -1442,9 +1442,11 @@ samp {
 }
 
 .carousel-indicators {
-  position: absolute;
-  bottom: 5%;
   display: flex;
+  position: absolute;
+  bottom: 5px;
+  overflow: auto;
+  width: 100%;
 }
 
 .carousel-indicators-item {
