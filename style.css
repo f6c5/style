@@ -1521,6 +1521,14 @@ samp {
   margin-bottom: 10px;
 }
 
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .flat-card.float {
   transition: opacity 1s ease, transform 1s ease;
 }
