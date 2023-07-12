@@ -1571,7 +1571,6 @@ samp {
 }
 
 .card {
-  height: 600px;
   width: 100%;
   min-width: 400px;
   border: 1px solid var(--grey-400);
