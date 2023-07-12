@@ -3693,11 +3693,89 @@ samp {
   word-wrap: break-word !important;
   word-break: break-word !important;
 }
-/* .text-truncate {
+
+.text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-} */
+}
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-6 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-7 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-8 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-9 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-10 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-11 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 11;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate-12 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 12;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .visible {
   visibility: visible !important;
