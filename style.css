@@ -1566,7 +1566,7 @@ samp {
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
+  gap: 40px;
   margin-top: 50px;
 }
 
