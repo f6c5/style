@@ -1444,7 +1444,8 @@ samp {
 .carousel-indicators {
   display: flex;
   position: absolute;
-  bottom: 5px;
+  justify-content: center;
+  bottom: 5%;
   overflow: auto;
   width: 100%;
 }
