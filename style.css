@@ -977,6 +977,7 @@ a {
   border-radius: 8px;
   border: 2px solid #00aaff;
   color: #00aaff;
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -996,6 +997,7 @@ a {
   border-radius: 8px;
   border: 2px solid #28a745;
   color: #28a745;
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1015,6 +1017,7 @@ a {
   border-radius: 8px;
   border: 2px solid #ffc107;
   color: #ffc107;
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1034,6 +1037,7 @@ a {
   border-radius: 8px;
   border: 2px solid #dc3545;
   color: #dc3545;
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1053,6 +1057,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--grey-500);
   color: var(--grey-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1072,6 +1077,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--yellow-500);
   color: var(--yellow-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1091,6 +1097,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--orange-500);
   color: var(--orange-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1110,6 +1117,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--pink-500);
   color: var(--pink-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1129,6 +1137,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--cyan-500);
   color: var(--cyan-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1148,6 +1157,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--green-500);
   color: var(--green-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1167,6 +1177,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--red-500);
   color: var(--red-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -1186,6 +1197,7 @@ a {
   border-radius: 8px;
   border: 2px solid var(--blue-500);
   color: var(--blue-500);
+  background-color: transparent;
   text-align: center;
   font-size: 16px;
   padding: 8px;
