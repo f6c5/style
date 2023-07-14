@@ -426,6 +426,9 @@ body {
   color: var(--blue-900) !important;
 }
 
+.bg-color-transparent {
+  background-color: transparent !important;
+}
 .bg-color-grey-100 {
   background-color: var(--grey-100) !important;
 }
@@ -3670,6 +3673,24 @@ samp {
 .fw-bolder {
   font-weight: bolder !important;
 }
+.fs-1 {
+  font-size: 1rem !important;
+}
+.fs-2 {
+  font-size: 1.5rem !important;
+}
+.fs-3 {
+  font-size: 2rem !important;
+}
+.fs-4 {
+  font-size: 2.5rem !important;
+}
+.fs-5 {
+  font-size: 3rem !important;
+}
+.fs-6 {
+  font-size: 3.5rem !important;
+}
 .text-start {
   text-align: left !important;
 }
@@ -3804,7 +3825,6 @@ samp {
   position: relative;
   background-color: transparent;
 }
-
 .progress-bar::after {
   content: "";
   position: absolute;
@@ -3818,56 +3838,46 @@ samp {
   box-sizing: border-box;
   animation: progress-animation 1s linear infinite;
 }
-
 @keyframes progress-animation {
   100% {
     transform: rotate(360deg);
   }
 }
-
 .progress-bar-2 {
   width: 3rem;
   height: 3rem;
 }
-
 .progress-bar-3 {
   width: 4rem;
   height: 4rem;
 }
-
 .progress-bar-4 {
   width: 5rem;
   height: 5rem;
   border-width: 5px;
 }
-
 .progress-bar-5 {
   width: 6rem;
   height: 6rem;
   border-width: 6px;
 }
-
 .progress-bar-6 {
   width: 7rem;
   height: 7rem;
   border-width: 6px;
 }
-
 .progress-bar-info::after {
   border-color: #00aaff;
   border-top-color: transparent;
 }
-
 .progress-bar-danger::after {
   border-color: #dc3545;
   border-top-color: transparent;
 }
-
 .progress-bar-warning::after {
   border-color: #ffc107;
   border-top-color: transparent;
 }
-
 .progress-bar-success::after {
   border-color: #28a745;
   border-top-color: transparent;

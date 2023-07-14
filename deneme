@@ -152,33 +152,6 @@
 .border-5 {
   border-width: 5px !important;
 }
-
-
-.fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
-}
-.fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
-}
-.fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
-}
-.fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
-}
-.fs-5 {
-  font-size: 1.25rem !important;
-}
-.fs-6 {
-  font-size: 1rem !important;
-}
-
-.bg-transparent {
-  background-color: transparent !important;
-}
-.bg-gradient {
-  background-image: var(--bs-gradient) !important;
-}
 .user-select-all {
   -webkit-user-select: all !important;
   -moz-user-select: all !important;
