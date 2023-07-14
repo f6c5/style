@@ -1580,14 +1580,15 @@ samp {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 40px;
-  margin-top: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 20px;
 }
 
 .card {
   width: 100%;
-  min-width: 400px;
+  min-width: 300px;
   border: 1px solid var(--grey-400);
   background-color: var(--grey-100);
   border-radius: 6px;
