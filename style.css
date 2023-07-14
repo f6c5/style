@@ -3797,3 +3797,78 @@ samp {
 .invisible {
   visibility: hidden !important;
 }
+
+.progress-bar {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  background-color: transparent;
+}
+
+.progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  border-radius: 50%;
+  border: 4px solid var(--grey-800);
+  border-top-color: transparent;
+  box-sizing: border-box;
+  animation: progress-animation 1s linear infinite;
+}
+
+@keyframes progress-animation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.progress-bar-2 {
+  width: 3rem;
+  height: 3rem;
+}
+
+.progress-bar-3 {
+  width: 4rem;
+  height: 4rem;
+}
+
+.progress-bar-4 {
+  width: 5rem;
+  height: 5rem;
+  border-width: 5px;
+}
+
+.progress-bar-5 {
+  width: 6rem;
+  height: 6rem;
+  border-width: 6px;
+}
+
+.progress-bar-6 {
+  width: 7rem;
+  height: 7rem;
+  border-width: 6px;
+}
+
+.progress-bar-info::after {
+  border-color: #00aaff;
+  border-top-color: transparent;
+}
+
+.progress-bar-danger::after {
+  border-color: #dc3545;
+  border-top-color: transparent;
+}
+
+.progress-bar-warning::after {
+  border-color: #ffc107;
+  border-top-color: transparent;
+}
+
+.progress-bar-success::after {
+  border-color: #28a745;
+  border-top-color: transparent;
+}
