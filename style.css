@@ -1726,6 +1726,57 @@ samp {
   color: var(--grey-600);
 }
 
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step {
+  width: 50px;
+  height: 50px;
+  border: 4px solid var(--grey-800);
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: var(--grey-100);
+  color: var(--grey-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  position: relative;
+}
+
+.step:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -24px;
+  height: 4px;
+  width: 20px;
+  background-color: var(--grey-800);
+}
+
+.step:first-child:before {
+  display: none;
+}
+
+.step.active {
+  border-color: #00aaff;
+}
+
+.step.completed {
+  border-color: #00ff00;
+}
+
+.step.completed::before {
+  background-color: #00ff00;
+}
+
+.step.active::before {
+  background-color: #00ff00;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
