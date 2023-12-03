@@ -1,0 +1,31 @@
+.d-flex {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}

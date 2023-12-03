@@ -1,0 +1,32 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif, "Courier New", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #324353;
+}
+
+@import "./grid.css";
+@import "./margin.css";
+@import "./padding.css";
+@import "./button.css";
+@import "./navbar.css";
+@import "./input.css";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
