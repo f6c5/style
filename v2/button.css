@@ -1,0 +1,522 @@
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #00aaff;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button:hover {
+    background-color: #00aaff44;
+  }
+  
+  .button-grey {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #555555;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-grey:hover {
+    background-color: #55555544;
+  }
+  
+  .button-yellow {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #ffcc00;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-yellow:hover {
+    background-color: #ffcc0044;
+  }
+  
+  .button-orange {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #ff8822;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-orange:hover {
+    background-color: #ff882244;
+  }
+  
+  .button-pink {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #ff44dd;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-pink:hover {
+    background-color: #ff44dd44;
+  }
+  
+  .button-cyan {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #22ddff;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-cyan:hover {
+    background-color: #22ddff44;
+  }
+  
+  .button-green {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #22aa44;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-green:hover {
+    background-color: #22aa4444;
+  }
+  
+  .button-red {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #dd2233;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-red:hover {
+    background-color: #dd223344;
+  }
+  
+  .button-blue {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    color: #0066dd;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-blue:hover {
+    background-color: #0066dd44;
+  }
+  
+  .button-contained {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #00aaff;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-grey {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #555555;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-grey:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-yellow {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-yellow:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-orange {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #ff8822;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-orange:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-pink {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #ff44dd;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-pink:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-cyan {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #22ddff;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-cyan:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-green {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #22aa44;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-green:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-red {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #dd2233;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-red:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-contained-blue {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #0066dd;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-contained-blue:hover {
+    filter: brightness(1.2);
+  }
+  
+  .button-outline {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #00aaff;
+    color: #00aaff;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline:hover {
+    background-color: #00aaff;
+    color: white;
+  }
+  
+  .button-outline-grey {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #555555;
+    color: #555555;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-grey:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
+  .button-outline-yellow {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #ffcc00;
+    color: #ffcc00;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-yellow:hover {
+    background-color: #ffcc00;
+    color: black;
+  }
+  
+  .button-outline-orange {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #ff8822;
+    color: #ff8822;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-orange:hover {
+    background-color: #ff8822;
+    color: white;
+  }
+  
+  .button-outline-pink {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #ff44dd;
+    color: #ff44dd;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-pink:hover {
+    background-color: #ff44dd;
+    color: white;
+  }
+  
+  .button-outline-cyan {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #22ddff;
+    color: #22ddff;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-cyan:hover {
+    background-color: #22ddff;
+    color: #000000;
+  }
+  
+  .button-outline-green {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #22aa44;
+    color: #22aa44;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-green:hover {
+    background-color: #22aa44;
+    color: white;
+  }
+  
+  .button-outline-red {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #dd2233;
+    color: #dd2233;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-red:hover {
+    background-color: #dd2233;
+    color: white;
+  }
+  
+  .button-outline-blue {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #0066dd;
+    color: #0066dd;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    padding-inline: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .button-outline-blue:hover {
+    background-color: #0066dd;
+    color: white;
+  }
+  
