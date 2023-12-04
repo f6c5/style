@@ -35,6 +35,13 @@
   word-wrap: break-word !important;
   word-break: break-word !important;
 }
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .text-truncate-7 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
