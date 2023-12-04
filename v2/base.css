@@ -19,13 +19,6 @@ body {
   color: #324353;
 }
 
-@import "./grid.css";
-@import "./margin.css";
-@import "./padding.css";
-@import "./button.css";
-@import "./navbar.css";
-@import "./input.css";
-
 a {
   text-decoration: none;
   color: inherit;
