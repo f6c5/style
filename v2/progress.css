@@ -1,0 +1,36 @@
+
+.circular-progress-bar {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    background-color: transparent;
+  }
+  .circular-progress-bar::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    border-radius: 50%;
+    border: 8px solid #fff;
+    border-top-color: transparent;
+    box-sizing: border-box;
+    animation: circular-progress-animation 1s linear infinite;
+  }
+  @keyframes circular-progress-animation {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .circular-progress-bar-6 {
+    width: 7rem;
+    height: 7rem;
+    border-width: 6px;
+  }
+  .circular-progress-bar-info::after {
+    border-color: #00aaff;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
