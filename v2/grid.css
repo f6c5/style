@@ -1,9 +1,21 @@
 .container {
-  min-height: 100vh;
+  min-height: 100svh;
   margin: 0 auto;
   padding: 6rem 0 2.5rem 0;
+}
+
+.row {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 .col {

@@ -6,6 +6,14 @@
   justify-content: center;
 }
 
+.jc-start {
+  justify-content: start;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
 .flex-wrap {
   flex-wrap: wrap !important;
 }
