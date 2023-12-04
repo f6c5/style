@@ -73,16 +73,17 @@
 .card {
   width: 100%;
   min-width: 300px;
-  border: 1px solid #666666;
-  background-color: #ffffff;
+  border: 0.1rem solid #ddd;
+  background-color: #fff;
   border-radius: 6px;
-  box-shadow: 0 0px 12px #555555;
+  box-shadow: 0 0px 12px #aaa;
+  padding: 1rem;
 }
 
 .card:hover {
-  transform: scale(1.03);
-  transition: 0.1s linear;
-  box-shadow: 0 0 24px -5px #333333;
+  transform: scale(1.02);
+  transition: 0.2s ease-in;
+  box-shadow: 0 0 24px -5px #555;
 }
 
 .card-img {
