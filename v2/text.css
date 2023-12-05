@@ -1,95 +1,95 @@
-.fsize-1 {
+.text-size-1 {
   font-size: 0.75rem;
 }
-.fsize-2 {
+.text-size-2 {
   font-size: 1rem;
 }
-.fsize-3 {
+.text-size-3 {
   font-size: 1.25rem;
 }
-.fsize-4 {
+.text-size-4 {
   font-size: 1.5rem;
 }
-.fsize-5 {
+.text-size-5 {
   font-size: 1.75rem;
 }
-.fsize-6 {
+.text-size-6 {
   font-size: 2rem;
 }
-.fsize-7 {
+.text-size-7 {
   font-size: 2.25rem;
 }
-.fsize-8 {
+.text-size-8 {
   font-size: 2.5rem;
 }
-.fsize-9 {
+.text-size-9 {
   font-size: 2.75rem;
 }
-.fsize-10 {
+.text-size-10 {
   font-size: 3rem;
 }
-.fsize-11 {
+.text-size-11 {
   font-size: 3.25rem;
 }
-.fsize-12 {
+.text-size-12 {
   font-size: 3.5rem;
 }
-.fsize-13 {
+.text-size-13 {
   font-size: 3.75rem;
 }
-.fsize-14 {
+.text-size-14 {
   font-size: 4rem;
 }
-.fsize-15 {
+.text-size-15 {
   font-size: 4.25rem;
 }
-.fsize-16 {
+.text-size-16 {
   font-size: 4.5rem;
 }
-.fsize-17 {
+.text-size-17 {
   font-size: 4.75rem;
 }
-.fsize-18 {
+.text-size-18 {
   font-size: 5rem;
 }
-.fsize-19 {
+.text-size-19 {
   font-size: 5.25rem;
 }
-.fsize-20 {
+.text-size-20 {
   font-size: 5.5rem;
 }
-.fsize-21 {
+.text-size-21 {
   font-size: 5.75rem;
 }
-.fsize-22 {
+.text-size-22 {
   font-size: 6rem;
 }
-.fsize-23 {
+.text-size-23 {
   font-size: 6.25rem;
 }
-.fsize-24 {
+.text-size-24 {
   font-size: 6.5rem;
 }
 
-.font-serif {
+.text-family-serif {
   font-family: "Times New Roman", Times, serif;
 }
-.font-sans-serif {
+.text-family-sans-serif {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
-.font-monospace {
+.text-family-monospace {
   font-family: "Courier New", Courier, monospace;
 }
-.font-fantasy {
+.text-family-fantasy {
   font-family: "Comic Sans MS", "Papyrus", fantasy, cursive, sans-serif;
 }
-.font-code {
+.text-family-code {
   font-family: "Courier New", Courier, monospace;
 }
-.font-handwriting {
+.text-family-handwriting {
   font-family: "Lucida Handwriting", "Courier New", Courier, cursive, monospace;
 }
-.font-modern {
+.text-family-modern {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, sans-serif;
 }
 
