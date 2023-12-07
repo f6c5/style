@@ -1,4 +1,4 @@
-.button {
+.btn {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -13,11 +13,11 @@
   margin: 2px;
 }
 
-.button:hover {
+.btn:hover {
   background-color: #00aaff44;
 }
 
-.button-grey {
+.btn-grey {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -32,11 +32,11 @@
   margin: 2px;
 }
 
-.button-grey:hover {
+.btn-grey:hover {
   background-color: #55555544;
 }
 
-.button-yellow {
+.btn-yellow {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -51,11 +51,11 @@
   margin: 2px;
 }
 
-.button-yellow:hover {
+.btn-yellow:hover {
   background-color: #ffcc0044;
 }
 
-.button-orange {
+.btn-orange {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -70,11 +70,11 @@
   margin: 2px;
 }
 
-.button-orange:hover {
+.btn-orange:hover {
   background-color: #ff882244;
 }
 
-.button-pink {
+.btn-pink {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -89,11 +89,11 @@
   margin: 2px;
 }
 
-.button-pink:hover {
+.btn-pink:hover {
   background-color: #ff44dd44;
 }
 
-.button-cyan {
+.btn-cyan {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -108,11 +108,11 @@
   margin: 2px;
 }
 
-.button-cyan:hover {
+.btn-cyan:hover {
   background-color: #22ddff44;
 }
 
-.button-green {
+.btn-green {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -127,11 +127,11 @@
   margin: 2px;
 }
 
-.button-green:hover {
+.btn-green:hover {
   background-color: #22aa4444;
 }
 
-.button-red {
+.btn-red {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -146,11 +146,11 @@
   margin: 2px;
 }
 
-.button-red:hover {
+.btn-red:hover {
   background-color: #dd223344;
 }
 
-.button-blue {
+.btn-blue {
   display: inline-block;
   border-radius: 8px;
   background-color: transparent;
@@ -165,11 +165,11 @@
   margin: 2px;
 }
 
-.button-blue:hover {
+.btn-blue:hover {
   background-color: #0066dd44;
 }
 
-.button-contained {
+.btn-contained {
   display: inline-block;
   border-radius: 8px;
   background-color: #00aaff;
@@ -184,11 +184,11 @@
   margin: 2px;
 }
 
-.button-contained:hover {
+.btn-contained:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-grey {
+.btn-contained-grey {
   display: inline-block;
   border-radius: 8px;
   background-color: #555555;
@@ -203,11 +203,11 @@
   margin: 2px;
 }
 
-.button-contained-grey:hover {
+.btn-contained-grey:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-yellow {
+.btn-contained-yellow {
   display: inline-block;
   border-radius: 8px;
   background-color: #ffcc00;
@@ -222,11 +222,11 @@
   margin: 2px;
 }
 
-.button-contained-yellow:hover {
+.btn-contained-yellow:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-orange {
+.btn-contained-orange {
   display: inline-block;
   border-radius: 8px;
   background-color: #ff8822;
@@ -241,11 +241,11 @@
   margin: 2px;
 }
 
-.button-contained-orange:hover {
+.btn-contained-orange:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-pink {
+.btn-contained-pink {
   display: inline-block;
   border-radius: 8px;
   background-color: #ff44dd;
@@ -260,11 +260,11 @@
   margin: 2px;
 }
 
-.button-contained-pink:hover {
+.btn-contained-pink:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-cyan {
+.btn-contained-cyan {
   display: inline-block;
   border-radius: 8px;
   background-color: #22ddff;
@@ -279,11 +279,11 @@
   margin: 2px;
 }
 
-.button-contained-cyan:hover {
+.btn-contained-cyan:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-green {
+.btn-contained-green {
   display: inline-block;
   border-radius: 8px;
   background-color: #22aa44;
@@ -298,11 +298,11 @@
   margin: 2px;
 }
 
-.button-contained-green:hover {
+.btn-contained-green:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-red {
+.btn-contained-red {
   display: inline-block;
   border-radius: 8px;
   background-color: #dd2233;
@@ -317,11 +317,11 @@
   margin: 2px;
 }
 
-.button-contained-red:hover {
+.btn-contained-red:hover {
   filter: brightness(1.2);
 }
 
-.button-contained-blue {
+.btn-contained-blue {
   display: inline-block;
   border-radius: 8px;
   background-color: #0066dd;
@@ -336,11 +336,11 @@
   margin: 2px;
 }
 
-.button-contained-blue:hover {
+.btn-contained-blue:hover {
   filter: brightness(1.2);
 }
 
-.button-outline {
+.btn-outline {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #00aaff;
@@ -355,12 +355,12 @@
   margin: 2px;
 }
 
-.button-outline:hover {
+.btn-outline:hover {
   background-color: #00aaff;
   color: white;
 }
 
-.button-outline-grey {
+.btn-outline-grey {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #555555;
@@ -375,12 +375,12 @@
   margin: 2px;
 }
 
-.button-outline-grey:hover {
+.btn-outline-grey:hover {
   background-color: #555555;
   color: white;
 }
 
-.button-outline-yellow {
+.btn-outline-yellow {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #ffcc00;
@@ -395,12 +395,12 @@
   margin: 2px;
 }
 
-.button-outline-yellow:hover {
+.btn-outline-yellow:hover {
   background-color: #ffcc00;
   color: black;
 }
 
-.button-outline-orange {
+.btn-outline-orange {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #ff8822;
@@ -415,12 +415,12 @@
   margin: 2px;
 }
 
-.button-outline-orange:hover {
+.btn-outline-orange:hover {
   background-color: #ff8822;
   color: white;
 }
 
-.button-outline-pink {
+.btn-outline-pink {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #ff44dd;
@@ -435,12 +435,12 @@
   margin: 2px;
 }
 
-.button-outline-pink:hover {
+.btn-outline-pink:hover {
   background-color: #ff44dd;
   color: white;
 }
 
-.button-outline-cyan {
+.btn-outline-cyan {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #22ddff;
@@ -455,12 +455,12 @@
   margin: 2px;
 }
 
-.button-outline-cyan:hover {
+.btn-outline-cyan:hover {
   background-color: #22ddff;
   color: #000000;
 }
 
-.button-outline-green {
+.btn-outline-green {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #22aa44;
@@ -475,12 +475,12 @@
   margin: 2px;
 }
 
-.button-outline-green:hover {
+.btn-outline-green:hover {
   background-color: #22aa44;
   color: white;
 }
 
-.button-outline-red {
+.btn-outline-red {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #dd2233;
@@ -495,12 +495,12 @@
   margin: 2px;
 }
 
-.button-outline-red:hover {
+.btn-outline-red:hover {
   background-color: #dd2233;
   color: white;
 }
 
-.button-outline-blue {
+.btn-outline-blue {
   display: inline-block;
   border-radius: 8px;
   border: 2px solid #0066dd;
@@ -515,7 +515,7 @@
   margin: 2px;
 }
 
-.button-outline-blue:hover {
+.btn-outline-blue:hover {
   background-color: #0066dd;
   color: white;
 }
