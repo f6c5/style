@@ -1,0 +1,49 @@
+:root {
+  --transparent: transparent;
+
+  --black-100: #FFFFFF;
+  --black-200: #DDDDDD;
+  --black-300: #BBBBBB;
+  --black-400: #AAAAAA;
+  --black-500: #888888;
+  --black-600: #666666;
+  --black-700: #444444;
+  --black-800: #333333;
+  --black-900: #000000;
+}
+
+.c-black-100 {
+  color: var(--black-100);
+}
+
+.c-black-200 {
+  color: var(--black-200);
+}
+
+.c-black-300 {
+  color: var(--black-300);
+}
+
+.c-black-400 {
+  color: var(--black-400);
+}
+
+.c-black-500 {
+  color: var(--black-500);
+}
+
+.c-black-600 {
+  color: var(--black-600);
+}
+
+.c-black-700 {
+  color: var(--black-700);
+}
+
+.c-black-800 {
+  color: var(--black-800);
+}
+
+.c-black-900 {
+  color: var(--black-900);
+}
