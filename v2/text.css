@@ -71,6 +71,16 @@
   font-size: 6.5rem;
 }
 
+.text-weight-lighter {
+  font-weight: lighter;
+}
+.text-weight-bold {
+  font-weight: bold;
+}
+.text-weight-normal {
+  font-weight: normal;
+}
+
 .text-family-serif {
   font-family: "Times New Roman", Times, serif;
 }
