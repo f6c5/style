@@ -11,6 +11,9 @@
   z-index: 998;
 }
 .brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-decoration: none;
   color: inherit;
   font-weight: bold;
