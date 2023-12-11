@@ -85,7 +85,7 @@
   background-color: #5995b3;
   color: white;
 }
-.link-outline.router-link-exact-active {
+.link-outline.active {
   border-color: #395e7c;
   background-color: #395e7c;
   color: white;
