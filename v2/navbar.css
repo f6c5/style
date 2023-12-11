@@ -146,11 +146,11 @@
   }
 }
 
-.link.router-link-exact-active {
+.link.active {
   color: #395e7c;
 }
 
-.link.router-link-exact-active::after {
+.link.active::after {
   transform: scaleX(1);
   background-color: #395e7c;
 }
