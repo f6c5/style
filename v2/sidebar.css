@@ -33,7 +33,7 @@
 .content {
   min-height: 100svh;
   max-width: 1200px;
-  margin: 0 18rem auto;
+  margin: 0 20rem auto;
 }
 .sidebar-link.active {
   color: var(--bg-primary);
