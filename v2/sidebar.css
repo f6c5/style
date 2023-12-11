@@ -30,7 +30,7 @@
   background-color: inherit;
   background-color: color-mix(in srgb, var(--c-primary) 80%, var(--bg-primary));
 }
-.sidebar-porvider.content {
+.content {
   min-height: 100svh;
   max-width: 1200px;
   margin: 0 18rem auto;
