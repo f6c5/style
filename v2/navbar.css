@@ -6,7 +6,7 @@
   justify-content: space-between;
   box-shadow: 0px 8px 16px 0px #2c3e5055;
   padding: 1rem;
-  background-color: #ffffffaa;
+  background-color: color-mix(in srgb, var(--bg-primary) 70%, transparent);
   backdrop-filter: blur(0.2rem);
   z-index: 998;
 }
@@ -20,7 +20,7 @@
   font-size: 22px;
   padding-left: 2rem;
   margin-right: 0;
-  color: #000000;
+  color: var(--c-primary);
 }
 .links {
   display: flex;
@@ -41,7 +41,7 @@
 
 .link {
   text-decoration: none;
-  color: #000000;
+  color: var(--c-primary);
   font-size: 16px;
   position: relative;
   font-weight: bold;
@@ -54,7 +54,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #000000;
+  background-color: var(--c-primary);
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
@@ -67,8 +67,8 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
-  border: 2px solid #779394;
-  color: #779394;
+  border: 2px solid var(--c-primary);
+  color: var(--c-primary);
   background-color: transparent;
   text-align: center;
   font-weight: bold;
@@ -81,14 +81,14 @@
 }
 
 .link-outline:hover {
-  border-color: #5995b3;
-  background-color: #5995b3;
-  color: white;
+  border-color: var(--c-primary);
+  background-color: var(--c-primary);
+  color: var(--bg-primary);
 }
 .link-outline.active {
-  border-color: #395e7c;
-  background-color: #395e7c;
-  color: white;
+  border-color: var(--c-primary);
+  background-color: var(--c-primary);
+  color: var(--bg-primary);
 }
 
 .burger-menu {
@@ -100,7 +100,7 @@
   display: block;
   width: 25px;
   height: 3px;
-  background-color: #5e5a5a;
+  background-color: var(--c-primary);
   margin-bottom: 5px;
   transition: transform 0.3s ease-in-out;
 }
@@ -126,10 +126,10 @@
     top: 6rem;
     height: 100vh;
     padding: 20px;
-    background-color: #ffffffaa;
+    background-color: var(--bg-primary);
     backdrop-filter: blur(0.2rem);
     width: 100%;
-    border-top: 0.1rem #000000 solid;
+    border-top: 0.1rem var(--c-primary) solid;
     transition: transform 0.2s ease-in-out;
     transform: translateX(-100%);
     z-index: 997;
@@ -147,10 +147,10 @@
 }
 
 .link.active {
-  color: #395e7c;
+  color: color-mix(in srgb, var(--c-primary) 70%, transparent);
 }
 
 .link.active::after {
   transform: scaleX(1);
-  background-color: #395e7c;
+  background-color: color-mix(in srgb, var(--c-primary) 70%, transparent);
 }
