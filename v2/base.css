@@ -18,7 +18,8 @@ body {
   font-family: "Times New Roman", Times, serif, "Courier New", monospace;
   font-size: 1rem;
   line-height: 1.5;
-  color: #324353;
+  color: var(--c-primary);
+  background-color: var(--bg-primary);
 }
 
 a {
