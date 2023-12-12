@@ -57,11 +57,11 @@
 .btn-purple:hover {
   background-color: color-mix(in srgb, var(--purple-500) 30%, transparent);
 }
-.btn-navy {
-  color: var(--navy-500);
+.btn-indigo {
+  color: var(--indigo-500);
 }
-.btn-navy:hover {
-  background-color: color-mix(in srgb, var(--navy-500) 30%, transparent);
+.btn-indigo:hover {
+  background-color: color-mix(in srgb, var(--indigo-500) 30%, transparent);
 }
 .btn-blue {
   color: var(--blue-500);
@@ -199,8 +199,8 @@
 .btn-c-purple {
   background-color: var(--purple-500);
 }
-.btn-c-navy {
-  background-color: var(--navy-500);
+.btn-c-indigo {
+  background-color: var(--indigo-500);
 }
 .btn-c-blue {
   background-color: var(--blue-500);
@@ -326,13 +326,13 @@
   background-color: var(--purple-400);
   color: var(--purple-900);
 }
-.btn-o-navy {
-  border-color: var(--navy-400);
-  color: var(--navy-400);
+.btn-o-indigo {
+  border-color: var(--indigo-400);
+  color: var(--indigo-400);
 }
-.btn-o-navy:hover {
-  background-color: var(--navy-400);
-  color: var(--navy-900);
+.btn-o-indigo:hover {
+  background-color: var(--indigo-400);
+  color: var(--indigo-900);
 }
 .btn-o-blue {
   border-color: var(--blue-400);
