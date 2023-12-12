@@ -165,7 +165,7 @@
   border-radius: 8px;
   background-color: var(--c-primary);
   border: none;
-  color: var(--bg-primary);
+  color: var(--black-100);
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -175,80 +175,104 @@
   margin: 2px;
 }
 .btn-c:hover {
-  transform: scale(1.03);
-  filter: brightness(1.05);
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
 .btn-c-black {
   background-color: var(--black-500);
+  color: var(--black-100);
 }
 .btn-c-maroon {
   background-color: var(--maroon-500);
+  color: var(--black-100);
 }
 .btn-c-red {
   background-color: var(--red-500);
+  color: var(--black-100);
 }
 .btn-c-pink {
   background-color: var(--pink-500);
+  color: var(--black-100);
 }
 .btn-c-lightpink {
   background-color: var(--lightpink-500);
+  color: var(--black-900);
 }
 .btn-c-orchid {
   background-color: var(--orchid-500);
+  color: var(--black-100);
 }
 .btn-c-purple {
   background-color: var(--purple-500);
+  color: var(--black-100);
 }
 .btn-c-indigo {
   background-color: var(--indigo-500);
+  color: var(--black-100);
 }
 .btn-c-blue {
   background-color: var(--blue-500);
+  color: var(--black-100);
 }
 .btn-c-cyan {
   background-color: var(--cyan-500);
+  color: var(--black-900);
 }
 .btn-c-darkcyan {
   background-color: var(--darkcyan-500);
+  color: var(--black-100);
 }
 .btn-c-slate {
   background-color: var(--slate-500);
+  color: var(--black-100);
 }
 .btn-c-teal {
   background-color: var(--teal-500);
+  color: var(--black-100);
 }
 .btn-c-darkgreen {
   background-color: var(--darkgreen-500);
+  color: var(--black-100);
 }
 .btn-c-green {
   background-color: var(--green-500);
+  color: var(--black-100);
 }
 .btn-c-lightgreen {
   background-color: var(--lightgreen-500);
+  color: var(--black-900);
 }
 .btn-c-olive {
   background-color: var(--olive-500);
+  color: var(--black-100);
 }
 .btn-c-gold {
   background-color: var(--gold-500);
+  color: var(--black-100);
 }
 .btn-c-yellow {
   background-color: var(--yellow-500);
+  color: var(--black-900);
 }
 .btn-c-peach {
   background-color: var(--peach-500);
+  color: var(--black-900);
 }
 .btn-c-brown {
   background-color: var(--brown-500);
+  color: var(--black-100);
 }
 .btn-c-darkbrown {
   background-color: var(--darkbrown-500);
+  color: var(--black-100);
 }
 .btn-c-orange {
   background-color: var(--orange-500);
+  color: var(--black-100);
 }
 .btn-c-tomato {
   background-color: var(--tomato-500);
+  color: var(--black-100);
 }
 
 .btn-o {
@@ -267,198 +291,198 @@
 }
 .btn-o:hover {
   background-color: var(--c-primary);
-  color: var(--bg-primary);
+  color: var(--black-100);
 }
 
 .btn-o-black {
-  border-color: var(--black-400);
-  color: var(--black-400);
+  border-color: var(--black-500);
+  color: var(--black-500);
 }
 .btn-o-black:hover {
-  background-color: var(--black-400);
-  color: var(--black-900);
+  background-color: var(--black-500);
+  color: var(--black-100);
 }
 .btn-o-maroon {
-  border-color: var(--maroon-400);
-  color: var(--maroon-400);
+  border-color: var(--maroon-500);
+  color: var(--maroon-500);
 }
 .btn-o-maroon:hover {
-  background-color: var(--maroon-400);
-  color: var(--maroon-900);
+  background-color: var(--maroon-500);
+  color: var(--black-100);
 }
 .btn-o-red {
-  border-color: var(--red-400);
-  color: var(--red-400);
+  border-color: var(--red-500);
+  color: var(--red-500);
 }
 .btn-o-red:hover {
-  background-color: var(--red-400);
-  color: var(--red-900);
+  background-color: var(--red-500);
+  color: var(--black-100);
 }
 .btn-o-pink {
-  border-color: var(--pink-400);
-  color: var(--pink-400);
+  border-color: var(--pink-500);
+  color: var(--pink-500);
 }
 .btn-o-pink:hover {
-  background-color: var(--pink-400);
-  color: var(--pink-900);
+  background-color: var(--pink-500);
+  color: var(--black-100);
 }
 .btn-o-lightpink {
-  border-color: var(--lightpink-400);
-  color: var(--lightpink-400);
+  border-color: var(--lightpink-500);
+  color: var(--lightpink-500);
 }
 .btn-o-lightpink:hover {
-  background-color: var(--lightpink-400);
-  color: var(--lightpink-900);
+  background-color: var(--lightpink-500);
+  color: var(--black-900);
 }
 .btn-o-orchid {
-  border-color: var(--orchid-400);
-  color: var(--orchid-400);
+  border-color: var(--orchid-500);
+  color: var(--orchid-500);
 }
 .btn-o-orchid:hover {
-  background-color: var(--orchid-400);
-  color: var(--orchid-900);
+  background-color: var(--orchid-500);
+  color: var(--black-100);
 }
 .btn-o-purple {
-  border-color: var(--purple-400);
-  color: var(--purple-400);
+  border-color: var(--purple-500);
+  color: var(--purple-500);
 }
 .btn-o-purple:hover {
-  background-color: var(--purple-400);
-  color: var(--purple-900);
+  background-color: var(--purple-500);
+  color: var(--black-100);
 }
 .btn-o-indigo {
-  border-color: var(--indigo-400);
-  color: var(--indigo-400);
+  border-color: var(--indigo-500);
+  color: var(--indigo-500);
 }
 .btn-o-indigo:hover {
-  background-color: var(--indigo-400);
-  color: var(--indigo-900);
+  background-color: var(--indigo-500);
+  color: var(--black-100);
 }
 .btn-o-blue {
-  border-color: var(--blue-400);
-  color: var(--blue-400);
+  border-color: var(--blue-500);
+  color: var(--blue-500);
 }
 .btn-o-blue:hover {
-  background-color: var(--blue-400);
-  color: var(--blue-900);
+  background-color: var(--blue-500);
+  color: var(--black-100);
 }
 .btn-o-cyan {
-  border-color: var(--cyan-400);
-  color: var(--cyan-400);
+  border-color: var(--cyan-500);
+  color: var(--cyan-500);
 }
 .btn-o-cyan:hover {
-  background-color: var(--cyan-400);
-  color: var(--cyan-900);
+  background-color: var(--cyan-500);
+  color: var(--black-900);
 }
 .btn-o-darkcyan {
-  border-color: var(--darkcyan-400);
-  color: var(--darkcyan-400);
+  border-color: var(--darkcyan-500);
+  color: var(--darkcyan-500);
 }
 .btn-o-darkcyan:hover {
-  background-color: var(--darkcyan-400);
-  color: var(--darkcyan-900);
+  background-color: var(--darkcyan-500);
+  color: var(--black-100);
 }
 .btn-o-slate {
-  border-color: var(--slate-400);
-  color: var(--slate-400);
+  border-color: var(--slate-500);
+  color: var(--slate-500);
 }
 .btn-o-slate:hover {
-  background-color: var(--slate-400);
-  color: var(--slate-900);
+  background-color: var(--slate-500);
+  color: var(--black-100);
 }
 .btn-o-teal {
-  border-color: var(--teal-400);
-  color: var(--teal-400);
+  border-color: var(--teal-500);
+  color: var(--teal-500);
 }
 .btn-o-teal:hover {
-  background-color: var(--teal-400);
-  color: var(--teal-900);
+  background-color: var(--teal-500);
+  color: var(--black-100);
 }
 .btn-o-darkgreen {
-  border-color: var(--darkgreen-400);
-  color: var(--darkgreen-400);
+  border-color: var(--darkgreen-500);
+  color: var(--darkgreen-500);
 }
 .btn-o-darkgreen:hover {
-  background-color: var(--darkgreen-400);
-  color: var(--darkgreen-900);
+  background-color: var(--darkgreen-500);
+  color: var(--black-100);
 }
 .btn-o-green {
-  border-color: var(--green-400);
-  color: var(--green-400);
+  border-color: var(--green-500);
+  color: var(--green-500);
 }
 .btn-o-green:hover {
-  background-color: var(--green-400);
-  color: var(--green-900);
+  background-color: var(--green-500);
+  color: var(--black-100);
 }
 .btn-o-lightgreen {
-  border-color: var(--lightgreen-400);
-  color: var(--lightgreen-400);
+  border-color: var(--lightgreen-500);
+  color: var(--lightgreen-500);
 }
 .btn-o-lightgreen:hover {
-  background-color: var(--lightgreen-400);
-  color: var(--lightgreen-900);
+  background-color: var(--lightgreen-500);
+  color: var(--black-900);
 }
 .btn-o-olive {
-  border-color: var(--olive-400);
-  color: var(--olive-400);
+  border-color: var(--olive-500);
+  color: var(--olive-500);
 }
 .btn-o-olive:hover {
-  background-color: var(--olive-400);
-  color: var(--olive-900);
+  background-color: var(--olive-500);
+  color: var(--black-100);
 }
 .btn-o-gold {
-  border-color: var(--gold-400);
-  color: var(--gold-400);
+  border-color: var(--gold-500);
+  color: var(--gold-500);
 }
 .btn-o-gold:hover {
-  background-color: var(--gold-400);
-  color: var(--gold-900);
+  background-color: var(--gold-500);
+  color: var(--black-100);
 }
 .btn-o-yellow {
-  border-color: var(--yellow-400);
-  color: var(--yellow-400);
+  border-color: var(--yellow-600);
+  color: var(--yellow-600);
 }
 .btn-o-yellow:hover {
-  background-color: var(--yellow-400);
-  color: var(--yellow-900);
+  background-color: var(--yellow-600);
+  color: var(--black-900);
 }
 .btn-o-peach {
-  border-color: var(--peach-400);
-  color: var(--peach-400);
+  border-color: var(--peach-500);
+  color: var(--peach-500);
 }
 .btn-o-peach:hover {
-  background-color: var(--peach-400);
-  color: var(--peach-900);
+  background-color: var(--peach-500);
+  color: var(--black-900);
 }
 .btn-o-brown {
-  border-color: var(--brown-400);
-  color: var(--brown-400);
+  border-color: var(--brown-500);
+  color: var(--brown-500);
 }
 .btn-o-brown:hover {
-  background-color: var(--brown-400);
-  color: var(--brown-900);
+  background-color: var(--brown-500);
+  color: var(--black-100);
 }
 .btn-o-darkbrown {
-  border-color: var(--darkbrown-400);
-  color: var(--darkbrown-400);
+  border-color: var(--darkbrown-500);
+  color: var(--darkbrown-500);
 }
 .btn-o-darkbrown:hover {
-  background-color: var(--darkbrown-400);
-  color: var(--darkbrown-900);
+  background-color: var(--darkbrown-500);
+  color: var(--black-100);
 }
 .btn-o-orange {
-  border-color: var(--orange-400);
-  color: var(--orange-400);
+  border-color: var(--orange-500);
+  color: var(--orange-500);
 }
 .btn-o-orange:hover {
-  background-color: var(--orange-400);
-  color: var(--orange-900);
+  background-color: var(--orange-500);
+  color: var(--black-100);
 }
 .btn-o-tomato {
-  border-color: var(--tomato-400);
-  color: var(--tomato-400);
+  border-color: var(--tomato-500);
+  color: var(--tomato-500);
 }
 .btn-o-tomato:hover {
-  background-color: var(--tomato-400);
-  color: var(--tomato-900);
+  background-color: var(--tomato-500);
+  color: var(--black-100);
 }
