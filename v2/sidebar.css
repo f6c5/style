@@ -22,7 +22,7 @@
   text-decoration: none;
   color: inherit;
   padding: 0.25rem 1.5rem;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .sidebar-link:hover {
