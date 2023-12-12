@@ -16,148 +16,148 @@
   background-color: color-mix(in srgb, var(--c-primary) 30%, transparent);
 }
 .btn-black {
-  color: var(--black-500);
+  color: var(--black-400);
 }
 .btn-black:hover {
-  background-color: color-mix(in srgb, var(--black-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--black-400) 30%, transparent);
 }
 .btn-maroon {
-  color: var(--maroon-500);
+  color: var(--maroon-400);
 }
 .btn-maroon:hover {
-  background-color: color-mix(in srgb, var(--maroon-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--maroon-400) 30%, transparent);
 }
 .btn-red {
-  color: var(--red-500);
+  color: var(--red-400);
 }
 .btn-red:hover {
-  background-color: color-mix(in srgb, var(--red-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--red-400) 30%, transparent);
 }
 .btn-pink {
-  color: var(--pink-500);
+  color: var(--pink-400);
 }
 .btn-pink:hover {
-  background-color: color-mix(in srgb, var(--pink-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--pink-400) 30%, transparent);
 }
 .btn-lightpink {
-  color: var(--lightpink-500);
+  color: var(--lightpink-400);
 }
 .btn-lightpink:hover {
-  background-color: color-mix(in srgb, var(--lightpink-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--lightpink-400) 30%, transparent);
 }
 .btn-orchid {
-  color: var(--orchid-500);
+  color: var(--orchid-400);
 }
 .btn-orchid:hover {
-  background-color: color-mix(in srgb, var(--orchid-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--orchid-400) 30%, transparent);
 }
 .btn-purple {
-  color: var(--purple-500);
+  color: var(--purple-400);
 }
 .btn-purple:hover {
-  background-color: color-mix(in srgb, var(--purple-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--purple-400) 30%, transparent);
 }
 .btn-indigo {
-  color: var(--indigo-500);
+  color: var(--indigo-400);
 }
 .btn-indigo:hover {
-  background-color: color-mix(in srgb, var(--indigo-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--indigo-400) 30%, transparent);
 }
 .btn-blue {
-  color: var(--blue-500);
+  color: var(--blue-400);
 }
 .btn-blue:hover {
-  background-color: color-mix(in srgb, var(--blue-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--blue-400) 30%, transparent);
 }
 .btn-cyan {
-  color: var(--cyan-500);
+  color: var(--cyan-400);
 }
 .btn-cyan:hover {
-  background-color: color-mix(in srgb, var(--cyan-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--cyan-400) 30%, transparent);
 }
 .btn-slate {
-  color: var(--slate-500);
+  color: var(--slate-400);
 }
 .btn-slate:hover {
-  background-color: color-mix(in srgb, var(--slate-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--slate-400) 30%, transparent);
 }
 .btn-darkcyan {
-  color: var(--darkcyan-500);
+  color: var(--darkcyan-400);
 }
 .btn-darkcyan:hover {
-  background-color: color-mix(in srgb, var(--darkcyan-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--darkcyan-400) 30%, transparent);
 }
 .btn-teal {
-  color: var(--teal-500);
+  color: var(--teal-400);
 }
 .btn-teal:hover {
-  background-color: color-mix(in srgb, var(--teal-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--teal-400) 30%, transparent);
 }
 .btn-darkgreen {
-  color: var(--darkgreen-500);
+  color: var(--darkgreen-400);
 }
 .btn-darkgreen:hover {
-  background-color: color-mix(in srgb, var(--darkgreen-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--darkgreen-400) 30%, transparent);
 }
 .btn-green {
   color: var(--green-700);
 }
 .btn-green:hover {
-  background-color: color-mix(in srgb, var(--green-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--green-400) 30%, transparent);
 }
 .btn-lightgreen {
   color: var(--lightgreen-600);
 }
 .btn-lightgreen:hover {
-  background-color: color-mix(in srgb, var(--lightgreen-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--lightgreen-400) 30%, transparent);
 }
 .btn-olive {
-  color: var(--olive-500);
+  color: var(--olive-400);
 }
 .btn-olive:hover {
-  background-color: color-mix(in srgb, var(--olive-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--olive-400) 30%, transparent);
 }
 .btn-gold {
-  color: var(--gold-500);
+  color: var(--gold-400);
 }
 .btn-gold:hover {
-  background-color: color-mix(in srgb, var(--gold-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--gold-400) 30%, transparent);
 }
 .btn-yellow {
-  color: var(--yellow-500);
+  color: var(--yellow-400);
 }
 .btn-yellow:hover {
-  background-color: color-mix(in srgb, var(--yellow-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--yellow-400) 30%, transparent);
 }
 .btn-peach {
-  color: var(--peach-500);
+  color: var(--peach-400);
 }
 .btn-peach:hover {
-  background-color: color-mix(in srgb, var(--peach-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--peach-400) 30%, transparent);
 }
 .btn-brown {
-  color: var(--brown-500);
+  color: var(--brown-400);
 }
 .btn-brown:hover {
-  background-color: color-mix(in srgb, var(--brown-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--brown-400) 30%, transparent);
 }
 .btn-darkbrown {
-  color: var(--darkbrown-500);
+  color: var(--darkbrown-400);
 }
 .btn-darkbrown:hover {
-  background-color: color-mix(in srgb, var(--darkbrown-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--darkbrown-400) 30%, transparent);
 }
 .btn-orange {
-  color: var(--orange-500);
+  color: var(--orange-400);
 }
 .btn-orange:hover {
-  background-color: color-mix(in srgb, var(--orange-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--orange-400) 30%, transparent);
 }
 .btn-tomato {
-  color: var(--tomato-500);
+  color: var(--tomato-400);
 }
 .btn-tomato:hover {
-  background-color: color-mix(in srgb, var(--tomato-500) 30%, transparent);
+  background-color: color-mix(in srgb, var(--tomato-400) 30%, transparent);
 }
 
 .btn-c {
@@ -179,99 +179,99 @@
   filter: brightness(1.1);
 }
 .btn-c-black {
-  background-color: var(--black-500);
+  background-color: var(--black-400);
   color: var(--black-100);
 }
 .btn-c-maroon {
-  background-color: var(--maroon-500);
+  background-color: var(--maroon-400);
   color: var(--black-100);
 }
 .btn-c-red {
-  background-color: var(--red-500);
+  background-color: var(--red-400);
   color: var(--black-100);
 }
 .btn-c-pink {
-  background-color: var(--pink-500);
+  background-color: var(--pink-400);
   color: var(--black-100);
 }
 .btn-c-lightpink {
-  background-color: var(--lightpink-500);
+  background-color: var(--lightpink-400);
   color: var(--black-900);
 }
 .btn-c-orchid {
-  background-color: var(--orchid-500);
+  background-color: var(--orchid-400);
   color: var(--black-100);
 }
 .btn-c-purple {
-  background-color: var(--purple-500);
+  background-color: var(--purple-400);
   color: var(--black-100);
 }
 .btn-c-indigo {
-  background-color: var(--indigo-500);
+  background-color: var(--indigo-400);
   color: var(--black-100);
 }
 .btn-c-blue {
-  background-color: var(--blue-500);
+  background-color: var(--blue-400);
   color: var(--black-100);
 }
 .btn-c-cyan {
-  background-color: var(--cyan-500);
+  background-color: var(--cyan-400);
   color: var(--black-900);
 }
 .btn-c-darkcyan {
-  background-color: var(--darkcyan-500);
+  background-color: var(--darkcyan-400);
   color: var(--black-100);
 }
 .btn-c-slate {
-  background-color: var(--slate-500);
+  background-color: var(--slate-400);
   color: var(--black-100);
 }
 .btn-c-teal {
-  background-color: var(--teal-500);
+  background-color: var(--teal-400);
   color: var(--black-100);
 }
 .btn-c-darkgreen {
-  background-color: var(--darkgreen-500);
+  background-color: var(--darkgreen-400);
   color: var(--black-100);
 }
 .btn-c-green {
-  background-color: var(--green-500);
+  background-color: var(--green-400);
   color: var(--black-100);
 }
 .btn-c-lightgreen {
-  background-color: var(--lightgreen-500);
+  background-color: var(--lightgreen-400);
   color: var(--black-900);
 }
 .btn-c-olive {
-  background-color: var(--olive-500);
+  background-color: var(--olive-400);
   color: var(--black-100);
 }
 .btn-c-gold {
-  background-color: var(--gold-500);
+  background-color: var(--gold-400);
   color: var(--black-100);
 }
 .btn-c-yellow {
-  background-color: var(--yellow-500);
+  background-color: var(--yellow-400);
   color: var(--black-900);
 }
 .btn-c-peach {
-  background-color: var(--peach-500);
+  background-color: var(--peach-400);
   color: var(--black-900);
 }
 .btn-c-brown {
-  background-color: var(--brown-500);
+  background-color: var(--brown-400);
   color: var(--black-100);
 }
 .btn-c-darkbrown {
-  background-color: var(--darkbrown-500);
+  background-color: var(--darkbrown-400);
   color: var(--black-100);
 }
 .btn-c-orange {
-  background-color: var(--orange-500);
+  background-color: var(--orange-400);
   color: var(--black-100);
 }
 .btn-c-tomato {
-  background-color: var(--tomato-500);
+  background-color: var(--tomato-400);
   color: var(--black-100);
 }
 
@@ -295,147 +295,147 @@
 }
 
 .btn-o-black {
-  border-color: var(--black-500);
-  color: var(--black-500);
+  border-color: var(--black-400);
+  color: var(--black-400);
 }
 .btn-o-black:hover {
-  background-color: var(--black-500);
+  background-color: var(--black-400);
   color: var(--black-100);
 }
 .btn-o-maroon {
-  border-color: var(--maroon-500);
-  color: var(--maroon-500);
+  border-color: var(--maroon-400);
+  color: var(--maroon-400);
 }
 .btn-o-maroon:hover {
-  background-color: var(--maroon-500);
+  background-color: var(--maroon-400);
   color: var(--black-100);
 }
 .btn-o-red {
-  border-color: var(--red-500);
-  color: var(--red-500);
+  border-color: var(--red-400);
+  color: var(--red-400);
 }
 .btn-o-red:hover {
-  background-color: var(--red-500);
+  background-color: var(--red-400);
   color: var(--black-100);
 }
 .btn-o-pink {
-  border-color: var(--pink-500);
-  color: var(--pink-500);
+  border-color: var(--pink-400);
+  color: var(--pink-400);
 }
 .btn-o-pink:hover {
-  background-color: var(--pink-500);
+  background-color: var(--pink-400);
   color: var(--black-100);
 }
 .btn-o-lightpink {
-  border-color: var(--lightpink-500);
-  color: var(--lightpink-500);
+  border-color: var(--lightpink-400);
+  color: var(--lightpink-400);
 }
 .btn-o-lightpink:hover {
-  background-color: var(--lightpink-500);
+  background-color: var(--lightpink-400);
   color: var(--black-900);
 }
 .btn-o-orchid {
-  border-color: var(--orchid-500);
-  color: var(--orchid-500);
+  border-color: var(--orchid-400);
+  color: var(--orchid-400);
 }
 .btn-o-orchid:hover {
-  background-color: var(--orchid-500);
+  background-color: var(--orchid-400);
   color: var(--black-100);
 }
 .btn-o-purple {
-  border-color: var(--purple-500);
-  color: var(--purple-500);
+  border-color: var(--purple-400);
+  color: var(--purple-400);
 }
 .btn-o-purple:hover {
-  background-color: var(--purple-500);
+  background-color: var(--purple-400);
   color: var(--black-100);
 }
 .btn-o-indigo {
-  border-color: var(--indigo-500);
-  color: var(--indigo-500);
+  border-color: var(--indigo-400);
+  color: var(--indigo-400);
 }
 .btn-o-indigo:hover {
-  background-color: var(--indigo-500);
+  background-color: var(--indigo-400);
   color: var(--black-100);
 }
 .btn-o-blue {
-  border-color: var(--blue-500);
-  color: var(--blue-500);
+  border-color: var(--blue-400);
+  color: var(--blue-400);
 }
 .btn-o-blue:hover {
-  background-color: var(--blue-500);
+  background-color: var(--blue-400);
   color: var(--black-100);
 }
 .btn-o-cyan {
-  border-color: var(--cyan-500);
-  color: var(--cyan-500);
+  border-color: var(--cyan-400);
+  color: var(--cyan-400);
 }
 .btn-o-cyan:hover {
-  background-color: var(--cyan-500);
+  background-color: var(--cyan-400);
   color: var(--black-900);
 }
 .btn-o-darkcyan {
-  border-color: var(--darkcyan-500);
-  color: var(--darkcyan-500);
+  border-color: var(--darkcyan-400);
+  color: var(--darkcyan-400);
 }
 .btn-o-darkcyan:hover {
-  background-color: var(--darkcyan-500);
+  background-color: var(--darkcyan-400);
   color: var(--black-100);
 }
 .btn-o-slate {
-  border-color: var(--slate-500);
-  color: var(--slate-500);
+  border-color: var(--slate-400);
+  color: var(--slate-400);
 }
 .btn-o-slate:hover {
-  background-color: var(--slate-500);
+  background-color: var(--slate-400);
   color: var(--black-100);
 }
 .btn-o-teal {
-  border-color: var(--teal-500);
-  color: var(--teal-500);
+  border-color: var(--teal-400);
+  color: var(--teal-400);
 }
 .btn-o-teal:hover {
-  background-color: var(--teal-500);
+  background-color: var(--teal-400);
   color: var(--black-100);
 }
 .btn-o-darkgreen {
-  border-color: var(--darkgreen-500);
-  color: var(--darkgreen-500);
+  border-color: var(--darkgreen-400);
+  color: var(--darkgreen-400);
 }
 .btn-o-darkgreen:hover {
-  background-color: var(--darkgreen-500);
+  background-color: var(--darkgreen-400);
   color: var(--black-100);
 }
 .btn-o-green {
-  border-color: var(--green-500);
-  color: var(--green-500);
+  border-color: var(--green-400);
+  color: var(--green-400);
 }
 .btn-o-green:hover {
-  background-color: var(--green-500);
+  background-color: var(--green-400);
   color: var(--black-100);
 }
 .btn-o-lightgreen {
-  border-color: var(--lightgreen-500);
-  color: var(--lightgreen-500);
+  border-color: var(--lightgreen-400);
+  color: var(--lightgreen-400);
 }
 .btn-o-lightgreen:hover {
-  background-color: var(--lightgreen-500);
+  background-color: var(--lightgreen-400);
   color: var(--black-900);
 }
 .btn-o-olive {
-  border-color: var(--olive-500);
-  color: var(--olive-500);
+  border-color: var(--olive-400);
+  color: var(--olive-400);
 }
 .btn-o-olive:hover {
-  background-color: var(--olive-500);
+  background-color: var(--olive-400);
   color: var(--black-100);
 }
 .btn-o-gold {
-  border-color: var(--gold-500);
-  color: var(--gold-500);
+  border-color: var(--gold-400);
+  color: var(--gold-400);
 }
 .btn-o-gold:hover {
-  background-color: var(--gold-500);
+  background-color: var(--gold-400);
   color: var(--black-100);
 }
 .btn-o-yellow {
@@ -447,42 +447,42 @@
   color: var(--black-900);
 }
 .btn-o-peach {
-  border-color: var(--peach-500);
-  color: var(--peach-500);
+  border-color: var(--peach-400);
+  color: var(--peach-400);
 }
 .btn-o-peach:hover {
-  background-color: var(--peach-500);
+  background-color: var(--peach-400);
   color: var(--black-900);
 }
 .btn-o-brown {
-  border-color: var(--brown-500);
-  color: var(--brown-500);
+  border-color: var(--brown-400);
+  color: var(--brown-400);
 }
 .btn-o-brown:hover {
-  background-color: var(--brown-500);
+  background-color: var(--brown-400);
   color: var(--black-100);
 }
 .btn-o-darkbrown {
-  border-color: var(--darkbrown-500);
-  color: var(--darkbrown-500);
+  border-color: var(--darkbrown-400);
+  color: var(--darkbrown-400);
 }
 .btn-o-darkbrown:hover {
-  background-color: var(--darkbrown-500);
+  background-color: var(--darkbrown-400);
   color: var(--black-100);
 }
 .btn-o-orange {
-  border-color: var(--orange-500);
-  color: var(--orange-500);
+  border-color: var(--orange-400);
+  color: var(--orange-400);
 }
 .btn-o-orange:hover {
-  background-color: var(--orange-500);
+  background-color: var(--orange-400);
   color: var(--black-100);
 }
 .btn-o-tomato {
-  border-color: var(--tomato-500);
-  color: var(--tomato-500);
+  border-color: var(--tomato-400);
+  color: var(--tomato-400);
 }
 .btn-o-tomato:hover {
-  background-color: var(--tomato-500);
+  background-color: var(--tomato-400);
   color: var(--black-100);
 }
