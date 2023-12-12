@@ -100,13 +100,13 @@
   background-color: color-mix(in srgb, var(--darkgreen-500) 30%, transparent);
 }
 .btn-green {
-  color: var(--green-500);
+  color: var(--green-700);
 }
 .btn-green:hover {
   background-color: color-mix(in srgb, var(--green-500) 30%, transparent);
 }
 .btn-lightgreen {
-  color: var(--lightgreen-500);
+  color: var(--lightgreen-600);
 }
 .btn-lightgreen:hover {
   background-color: color-mix(in srgb, var(--lightgreen-500) 30%, transparent);
