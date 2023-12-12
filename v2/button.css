@@ -175,7 +175,80 @@
   margin: 2px;
 }
 .btn-c:hover {
-  filter: brightness(1.2);
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+.btn-c-black {
+  background-color: var(--black-500);
+}
+.btn-c-maroon {
+  background-color: var(--maroon-500);
+}
+.btn-c-red {
+  background-color: var(--red-500);
+}
+.btn-c-pink {
+  background-color: var(--pink-500);
+}
+.btn-c-lightpink {
+  background-color: var(--lightpink-500);
+}
+.btn-c-orchid {
+  background-color: var(--orchid-500);
+}
+.btn-c-purple {
+  background-color: var(--purple-500);
+}
+.btn-c-navy {
+  background-color: var(--navy-500);
+}
+.btn-c-blue {
+  background-color: var(--blue-500);
+}
+.btn-c-cyan {
+  background-color: var(--cyan-500);
+}
+.btn-c-darkcyan {
+  background-color: var(--darkcyan-500);
+}
+.btn-c-slate {
+  background-color: var(--slate-500);
+}
+.btn-c-teal {
+  background-color: var(--teal-500);
+}
+.btn-c-darkgreen {
+  background-color: var(--darkgreen-500);
+}
+.btn-c-green {
+  background-color: var(--green-500);
+}
+.btn-c-lightgreen {
+  background-color: var(--lightgreen-500);
+}
+.btn-c-olive {
+  background-color: var(--olive-500);
+}
+.btn-c-gold {
+  background-color: var(--gold-500);
+}
+.btn-c-yellow {
+  background-color: var(--yellow-500);
+}
+.btn-c-peach {
+  background-color: var(--peach-500);
+}
+.btn-c-brown {
+  background-color: var(--brown-500);
+}
+.btn-c-darkbrown {
+  background-color: var(--darkbrown-500);
+}
+.btn-c-orange {
+  background-color: var(--orange-500);
+}
+.btn-c-tomato {
+  background-color: var(--tomato-500);
 }
 
 .btn-outline {
