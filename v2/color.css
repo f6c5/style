@@ -72,15 +72,15 @@
   --purple-800: #42276e;
   --purple-900: #362158;
 
-  --navy-100: #6941ff;
-  --navy-200: #4a2aff;
-  --navy-300: #0c08ff;
-  --navy-400: #1a0de5;
-  --navy-500: #200fcc;
-  --navy-600: #2311b3;
-  --navy-700: #24129b;
-  --navy-800: #241283;
-  --navy-900: #22116c;
+  --indigo-100: #6941ff;
+  --indigo-200: #4a2aff;
+  --indigo-300: #0c08ff;
+  --indigo-400: #1a0de5;
+  --indigo-500: #200fcc;
+  --indigo-600: #2311b3;
+  --indigo-700: #24129b;
+  --indigo-800: #241283;
+  --indigo-900: #22116c;
 
   --blue-100: #a8d4ff;
   --blue-200: #86c6ff;
@@ -443,32 +443,32 @@
   color: var(--purple-900);
 }
 
-.c-navy-100 {
-  color: var(--navy-100);
+.c-indigo-100 {
+  color: var(--indigo-100);
 }
-.c-navy-200 {
-  color: var(--navy-200);
+.c-indigo-200 {
+  color: var(--indigo-200);
 }
-.c-navy-300 {
-  color: var(--navy-300);
+.c-indigo-300 {
+  color: var(--indigo-300);
 }
-.c-navy-400 {
-  color: var(--navy-400);
+.c-indigo-400 {
+  color: var(--indigo-400);
 }
-.c-navy-500 {
-  color: var(--navy-500);
+.c-indigo-500 {
+  color: var(--indigo-500);
 }
-.c-navy-600 {
-  color: var(--navy-600);
+.c-indigo-600 {
+  color: var(--indigo-600);
 }
-.c-navy-700 {
-  color: var(--navy-700);
+.c-indigo-700 {
+  color: var(--indigo-700);
 }
-.c-navy-800 {
-  color: var(--navy-800);
+.c-indigo-800 {
+  color: var(--indigo-800);
 }
-.c-navy-900 {
-  color: var(--navy-900);
+.c-indigo-900 {
+  color: var(--indigo-900);
 }
 
 .c-blue-100 {
@@ -1119,32 +1119,32 @@
   background-color: var(--purple-900);
 }
 
-.bgc-navy-100 {
-  background-color: var(--navy-100);
+.bgc-indigo-100 {
+  background-color: var(--indigo-100);
 }
-.bgc-navy-200 {
-  background-color: var(--navy-200);
+.bgc-indigo-200 {
+  background-color: var(--indigo-200);
 }
-.bgc-navy-300 {
-  background-color: var(--navy-300);
+.bgc-indigo-300 {
+  background-color: var(--indigo-300);
 }
-.bgc-navy-400 {
-  background-color: var(--navy-400);
+.bgc-indigo-400 {
+  background-color: var(--indigo-400);
 }
-.bgc-navy-500 {
-  background-color: var(--navy-500);
+.bgc-indigo-500 {
+  background-color: var(--indigo-500);
 }
-.bgc-navy-600 {
-  background-color: var(--navy-600);
+.bgc-indigo-600 {
+  background-color: var(--indigo-600);
 }
-.bgc-navy-700 {
-  background-color: var(--navy-700);
+.bgc-indigo-700 {
+  background-color: var(--indigo-700);
 }
-.bgc-navy-800 {
-  background-color: var(--navy-800);
+.bgc-indigo-800 {
+  background-color: var(--indigo-800);
 }
-.bgc-navy-900 {
-  background-color: var(--navy-900);
+.bgc-indigo-900 {
+  background-color: var(--indigo-900);
 }
 
 .bgc-blue-100 {
