@@ -35,7 +35,7 @@
 }
 .sidebar-divider {
   color: color-mix(in srgb, var(--c-primary) 75%, transparent);
-  padding: 0 1.5rem;
+  padding: 0.25rem 0;
   display: flex;
   align-items: center;
   cursor: default;
