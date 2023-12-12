@@ -56,5 +56,5 @@
 .content {
   min-height: 100svh;
   max-width: 1200px;
-  margin: 0 20rem auto;
+  margin: 0  auto 0 19rem;
 }
