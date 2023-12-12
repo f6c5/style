@@ -25,16 +25,36 @@
   transition: background-color 0.3s;
 }
 
-.sidebar-link:hover,
-.sidebar-link.active {
-  background-color: inherit;
-  background-color: color-mix(in srgb, var(--c-primary) 80%, var(--bg-primary));
+.sidebar-link:hover {
+  color: var(--bg-primary);
+  background-color: color-mix(in srgb, var(--c-primary) 50%, var(--bg-primary));
 }
+.sidebar-link.active {
+  color: var(--c-primary);
+  background-color: color-mix(in srgb, var(--c-primary) 25%, var(--bg-primary));
+}
+.sidebar-divider {
+  color: color-mix(in srgb, var(--c-primary) 75%, transparent);
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.sidebar-divider::before {
+  content: "";
+  flex: 0.2;
+  border-top: 0.1rem solid color-mix(in srgb, var(--c-primary) 25%, transparent);
+  margin-right: 1rem;
+}
+.sidebar-divider::after {
+  content: "";
+  flex: 1;
+  border-top: 0.1rem solid color-mix(in srgb, var(--c-primary) 25%, transparent);
+  margin-left: 1rem;
+}
+
 .content {
   min-height: 100svh;
   max-width: 1200px;
   margin: 0 20rem auto;
-}
-.sidebar-link.active {
-  color: var(--bg-primary);
 }
