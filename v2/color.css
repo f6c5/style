@@ -102,16 +102,6 @@
   --cyan-800: #218ea8;
   --cyan-900: #227b91;
 
-  --slate-100: #b9c5cc;
-  --slate-200: #a2b3bb;
-  --slate-300: #8ca0ab;
-  --slate-400: #768f9b;
-  --slate-500: #607d8b;
-  --slate-600: #526a76;
-  --slate-700: #455861;
-  --slate-800: #38474e;
-  --slate-900: #2b363b;
-
   --darkcyan-100: #97cac2;
   --darkcyan-200: #7cbdb3;
   --darkcyan-300: #60b0a4;
@@ -121,6 +111,16 @@
   --darkcyan-700: #156e64;
   --darkcyan-800: #175c53;
   --darkcyan-900: #174943;
+
+  --slate-100: #b9c5cc;
+  --slate-200: #a2b3bb;
+  --slate-300: #8ca0ab;
+  --slate-400: #768f9b;
+  --slate-500: #607d8b;
+  --slate-600: #526a76;
+  --slate-700: #455861;
+  --slate-800: #38474e;
+  --slate-900: #2b363b;
 
   --teal-100: #83b5b4;
   --teal-200: #63a3a3;
