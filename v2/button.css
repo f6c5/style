@@ -3,7 +3,7 @@
   border-radius: 8px;
   background-color: transparent;
   border: none;
-  color: #00aaff;
+  color: var(--c-primary);
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -12,170 +12,160 @@
   cursor: pointer;
   margin: 2px;
 }
-
-
 .btn:hover {
-  background-color: #00aaff44;
+  background-color: color-mix(in srgb, var(--c-primary) 30%, transparent);
 }
-
-.btn-grey {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #555555;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
+.btn-black {
+  color: var(--black-500);
 }
-
-.btn-grey:hover {
-  background-color: #55555544;
+.btn-black:hover {
+  background-color: color-mix(in srgb, var(--black-500) 30%, transparent);
 }
-
-.btn-yellow {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #ffcc00;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
+.btn-maroon {
+  color: var(--maroon-500);
 }
-
-.btn-yellow:hover {
-  background-color: #ffcc0044;
+.btn-maroon:hover {
+  background-color: color-mix(in srgb, var(--maroon-500) 30%, transparent);
 }
-
-.btn-orange {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #ff8822;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-orange:hover {
-  background-color: #ff882244;
-}
-
-.btn-pink {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #ff44dd;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-pink:hover {
-  background-color: #ff44dd44;
-}
-
-.btn-cyan {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #22ddff;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-cyan:hover {
-  background-color: #22ddff44;
-}
-
-.btn-green {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #22aa44;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-green:hover {
-  background-color: #22aa4444;
-}
-
 .btn-red {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #dd2233;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
+  color: var(--red-500);
 }
-
 .btn-red:hover {
-  background-color: #dd223344;
+  background-color: color-mix(in srgb, var(--red-500) 30%, transparent);
 }
-
+.btn-pink {
+  color: var(--pink-500);
+}
+.btn-pink:hover {
+  background-color: color-mix(in srgb, var(--pink-500) 30%, transparent);
+}
+.btn-lightpink {
+  color: var(--lightpink-500);
+}
+.btn-lightpink:hover {
+  background-color: color-mix(in srgb, var(--lightpink-500) 30%, transparent);
+}
+.btn-orchid {
+  color: var(--orchid-500);
+}
+.btn-orchid:hover {
+  background-color: color-mix(in srgb, var(--orchid-500) 30%, transparent);
+}
+.btn-purple {
+  color: var(--purple-500);
+}
+.btn-purple:hover {
+  background-color: color-mix(in srgb, var(--purple-500) 30%, transparent);
+}
+.btn-navy {
+  color: var(--navy-500);
+}
+.btn-navy:hover {
+  background-color: color-mix(in srgb, var(--navy-500) 30%, transparent);
+}
 .btn-blue {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: transparent;
-  border: none;
-  color: #0066dd;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
+  color: var(--blue-500);
 }
-
 .btn-blue:hover {
-  background-color: #0066dd44;
+  background-color: color-mix(in srgb, var(--blue-500) 30%, transparent);
+}
+.btn-cyan {
+  color: var(--cyan-500);
+}
+.btn-cyan:hover {
+  background-color: color-mix(in srgb, var(--cyan-500) 30%, transparent);
+}
+.btn-slate {
+  color: var(--slate-500);
+}
+.btn-slate:hover {
+  background-color: color-mix(in srgb, var(--slate-500) 30%, transparent);
+}
+.btn-darkcyan {
+  color: var(--darkcyan-500);
+}
+.btn-darkcyan:hover {
+  background-color: color-mix(in srgb, var(--darkcyan-500) 30%, transparent);
+}
+.btn-teal {
+  color: var(--teal-500);
+}
+.btn-teal:hover {
+  background-color: color-mix(in srgb, var(--teal-500) 30%, transparent);
+}
+.btn-darkgreen {
+  color: var(--darkgreen-500);
+}
+.btn-darkgreen:hover {
+  background-color: color-mix(in srgb, var(--darkgreen-500) 30%, transparent);
+}
+.btn-green {
+  color: var(--green-500);
+}
+.btn-green:hover {
+  background-color: color-mix(in srgb, var(--green-500) 30%, transparent);
+}
+.btn-lightgreen {
+  color: var(--lightgreen-500);
+}
+.btn-lightgreen:hover {
+  background-color: color-mix(in srgb, var(--lightgreen-500) 30%, transparent);
+}
+.btn-olive {
+  color: var(--olive-500);
+}
+.btn-olive:hover {
+  background-color: color-mix(in srgb, var(--olive-500) 30%, transparent);
+}
+.btn-gold {
+  color: var(--gold-500);
+}
+.btn-gold:hover {
+  background-color: color-mix(in srgb, var(--gold-500) 30%, transparent);
+}
+.btn-yellow {
+  color: var(--yellow-500);
+}
+.btn-yellow:hover {
+  background-color: color-mix(in srgb, var(--yellow-500) 30%, transparent);
+}
+.btn-peach {
+  color: var(--peach-500);
+}
+.btn-peach:hover {
+  background-color: color-mix(in srgb, var(--peach-500) 30%, transparent);
+}
+.btn-brown {
+  color: var(--brown-500);
+}
+.btn-brown:hover {
+  background-color: color-mix(in srgb, var(--brown-500) 30%, transparent);
+}
+.btn-darkbrown {
+  color: var(--darkbrown-500);
+}
+.btn-darkbrown:hover {
+  background-color: color-mix(in srgb, var(--darkbrown-500) 30%, transparent);
+}
+.btn-orange {
+  color: var(--orange-500);
+}
+.btn-orange:hover {
+  background-color: color-mix(in srgb, var(--orange-500) 30%, transparent);
+}
+.btn-tomato {
+  color: var(--tomato-500);
+}
+.btn-tomato:hover {
+  background-color: color-mix(in srgb, var(--tomato-500) 30%, transparent);
 }
 
-.btn-contained {
+.btn-c {
   display: inline-block;
   border-radius: 8px;
-  background-color: #00aaff;
+  background-color: var(--c-primary);
   border: none;
-  color: white;
+  color: var(--bg-primary);
   text-align: center;
   font-size: 16px;
   padding: 8px;
@@ -184,168 +174,15 @@
   cursor: pointer;
   margin: 2px;
 }
-
-.btn-contained:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-grey {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #555555;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-grey:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-yellow {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #ffcc00;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-yellow:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-orange {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #ff8822;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-orange:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-pink {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #ff44dd;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-pink:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-cyan {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #22ddff;
-  border: none;
-  color: black;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-cyan:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-green {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #22aa44;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-green:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-red {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #dd2233;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-red:hover {
-  filter: brightness(1.2);
-}
-
-.btn-contained-blue {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #0066dd;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-contained-blue:hover {
+.btn-c:hover {
   filter: brightness(1.2);
 }
 
 .btn-outline {
   display: inline-block;
   border-radius: 8px;
-  border: 2px solid #00aaff;
-  color: #00aaff;
+  border: 2px solid var(--c-primary);
+  color: var(--c-primary);
   background-color: transparent;
   text-align: center;
   font-size: 16px;
@@ -357,166 +194,6 @@
 }
 
 .btn-outline:hover {
-  background-color: #00aaff;
-  color: white;
-}
-
-.btn-outline-grey {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #555555;
-  color: #555555;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-grey:hover {
-  background-color: #555555;
-  color: white;
-}
-
-.btn-outline-yellow {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #ffcc00;
-  color: #ffcc00;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-yellow:hover {
-  background-color: #ffcc00;
-  color: black;
-}
-
-.btn-outline-orange {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #ff8822;
-  color: #ff8822;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-orange:hover {
-  background-color: #ff8822;
-  color: white;
-}
-
-.btn-outline-pink {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #ff44dd;
-  color: #ff44dd;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-pink:hover {
-  background-color: #ff44dd;
-  color: white;
-}
-
-.btn-outline-cyan {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #22ddff;
-  color: #22ddff;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-cyan:hover {
-  background-color: #22ddff;
-  color: #000000;
-}
-
-.btn-outline-green {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #22aa44;
-  color: #22aa44;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-green:hover {
-  background-color: #22aa44;
-  color: white;
-}
-
-.btn-outline-red {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #dd2233;
-  color: #dd2233;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-red:hover {
-  background-color: #dd2233;
-  color: white;
-}
-
-.btn-outline-blue {
-  display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #0066dd;
-  color: #0066dd;
-  background-color: transparent;
-  text-align: center;
-  font-size: 16px;
-  padding: 8px;
-  padding-inline: 24px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 2px;
-}
-
-.btn-outline-blue:hover {
-  background-color: #0066dd;
-  color: white;
+  background-color: var(--c-primary);
+  color: var(--bg-primary);
 }
