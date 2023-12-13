@@ -124,13 +124,13 @@
   background-color: color-mix(in srgb, var(--gold-400) 30%, transparent);
 }
 .btn-yellow {
-  color: var(--yellow-400);
+  color: var(--yellow-700);
 }
 .btn-yellow:hover {
-  background-color: color-mix(in srgb, var(--yellow-400) 30%, transparent);
+  background-color: color-mix(in srgb, var(--yellow-600) 30%, transparent);
 }
 .btn-peach {
-  color: var(--peach-400);
+  color: var(--peach-500);
 }
 .btn-peach:hover {
   background-color: color-mix(in srgb, var(--peach-400) 30%, transparent);
