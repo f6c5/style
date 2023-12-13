@@ -52,8 +52,16 @@
   margin-left: 1rem;
 }
 
+.sidebar-right .sidebar {
+  left: unset;
+  right: 0;
+}
+
 .content {
   min-height: 100svh;
   max-width: 82rem;
   margin: 0 auto 0 19rem;
+}
+.sidebar-right .content {
+  margin: 0 19rem 0 auto;
 }
