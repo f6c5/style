@@ -18,8 +18,7 @@
   color: inherit;
   font-weight: bold;
   font-size: 22px;
-  padding-left: 2rem;
-  margin-right: 0;
+  padding-left: 1.5rem;
   color: var(--c-primary);
 }
 .links {
@@ -27,6 +26,7 @@
   align-items: center;
   gap: 20px;
   padding-right: 5rem;
+  padding-left: 5rem;
 }
 .links.center {
   margin-left: auto;
@@ -38,7 +38,6 @@
 .links.right {
   margin-left: auto;
 }
-
 .link {
   text-decoration: none;
   color: var(--c-primary);
@@ -46,7 +45,6 @@
   position: relative;
   font-weight: bold;
 }
-
 .link::after {
   content: "";
   position: absolute;
@@ -58,16 +56,13 @@
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
-
 .link:hover::after {
   transform: scaleX(1);
 }
-
 .burger-menu {
   display: none;
   cursor: pointer;
 }
-
 .burger-menu span {
   display: block;
   width: 25px;
@@ -76,19 +71,15 @@
   margin-bottom: 5px;
   transition: transform 0.3s ease-in-out;
 }
-
 .burger-menu.active span:nth-child(1) {
   transform: rotate(45deg) translate(6px, 5px);
 }
-
 .burger-menu.active span:nth-child(2) {
   opacity: 0;
 }
-
 .burger-menu.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -5px);
 }
-
 @media (max-width: 900px) {
   .links {
     position: fixed;
@@ -117,11 +108,9 @@
     transform: translateX(0);
   }
 }
-
 .link.active {
   color: color-mix(in srgb, var(--c-primary) 70%, transparent);
 }
-
 .link.active::after {
   transform: scaleX(1);
   background-color: color-mix(in srgb, var(--c-primary) 70%, transparent);
