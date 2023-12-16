@@ -10,7 +10,7 @@
   backdrop-filter: blur(0.2rem);
   z-index: 998;
 }
-.brand {
+.navbar .brand {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,31 +21,31 @@
   padding-left: 1.5rem;
   color: var(--c-primary);
 }
-.links {
+.navbar .links {
   display: flex;
   align-items: center;
   gap: 20px;
   padding-right: 5rem;
   padding-left: 5rem;
 }
-.links.center {
+.navbar .links.center {
   margin-left: auto;
   margin-right: auto;
 }
-.links.left {
+.navbar .links.left {
   margin-right: auto;
 }
-.links.right {
+.navbar .links.right {
   margin-left: auto;
 }
-.link {
+.navbar .link {
   text-decoration: none;
   color: var(--c-primary);
   font-size: 16px;
   position: relative;
   font-weight: bold;
 }
-.link::after {
+.navbar .link::after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -56,14 +56,14 @@
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
-.link:hover::after {
+.navbar .link:hover::after {
   transform: scaleX(1);
 }
-.burger-menu {
+.navbar .burger-menu {
   display: none;
   cursor: pointer;
 }
-.burger-menu span {
+.navbar .burger-menu span {
   display: block;
   width: 25px;
   height: 3px;
@@ -71,17 +71,17 @@
   margin-bottom: 5px;
   transition: transform 0.3s ease-in-out;
 }
-.burger-menu.active span:nth-child(1) {
+.navbar .burger-menu.active span:nth-child(1) {
   transform: rotate(45deg) translate(6px, 5px);
 }
-.burger-menu.active span:nth-child(2) {
+.navbar .burger-menu.active span:nth-child(2) {
   opacity: 0;
 }
-.burger-menu.active span:nth-child(3) {
+.navbar .burger-menu.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -5px);
 }
 @media (max-width: 900px) {
-  .links {
+  .navbar .links {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -97,21 +97,21 @@
     transform: translateX(-100%);
     z-index: 997;
   }
-  .burger-menu {
+  .navbar .burger-menu {
     display: block;
     z-index: 999;
   }
-  .burger-menu.active {
+  .navbar .burger-menu.active {
     position: relative;
   }
-  .show-menu.links {
+  .navbar .show-menu.links {
     transform: translateX(0);
   }
 }
-.link.active {
+.navbar .link.active {
   color: color-mix(in srgb, var(--c-primary) 70%, transparent);
 }
-.link.active::after {
+.navbar .link.active::after {
   transform: scaleX(1);
   background-color: color-mix(in srgb, var(--c-primary) 70%, transparent);
 }
