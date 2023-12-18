@@ -6,6 +6,7 @@
   color: var(--c-primary);
   text-align: center;
   font-size: 16px;
+  text-transform: capitalize;
   padding: 8px;
   padding-inline: 24px;
   transition: all 0.3s ease-in-out;
@@ -168,6 +169,7 @@
   color: var(--black-100);
   text-align: center;
   font-size: 16px;
+  text-transform: capitalize;
   padding: 8px;
   padding-inline: 24px;
   transition: all 0.3s ease-in-out;
@@ -283,6 +285,7 @@
   background-color: transparent;
   text-align: center;
   font-size: 16px;
+  text-transform: capitalize;
   padding: 8px;
   padding-inline: 24px;
   transition: all 0.3s ease-in-out;
