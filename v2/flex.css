@@ -2,10 +2,10 @@
   display: flex !important;
 }
 
-.jc-c {
+.jc-s {
   justify-content: start !important;
 }
-.jc-s {
+.jc-c {
   justify-content: center !important;
 }
 .jc-e {
