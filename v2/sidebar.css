@@ -61,8 +61,8 @@
 .sidebar-porvider .content {
   min-height: 100svh;
   width: 100%;
-  margin: 0 2rem 0 19rem;
+  margin: 0 2rem 0 19.5rem;
 }
 .sidebar-porvider.right .content {
-  margin: 0 19rem 0 2rem;
+  margin: 0 19.5rem 0 2rem;
 }
