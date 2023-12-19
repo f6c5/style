@@ -70,7 +70,6 @@
 .fs-24 {
   font-size: 6.5rem;
 }
-
 .fw-l {
   font-weight: lighter;
 }
@@ -80,7 +79,6 @@
 .fw-n {
   font-weight: normal;
 }
-
 .ff-serif {
   font-family: "Times New Roman", Times, serif;
 }
@@ -102,7 +100,6 @@
 .ff-modern {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, sans-serif;
 }
-
 .ta-s {
   text-align: left;
 }
@@ -118,7 +115,6 @@
 .ta-i {
   text-align: inherit;
 }
-
 .td-n {
   text-decoration: none;
 }
@@ -131,7 +127,6 @@
 .td-o {
   text-decoration: overline;
 }
-
 .tt-l {
   text-transform: lowercase;
 }
@@ -141,7 +136,6 @@
 .tt-c {
   text-transform: capitalize;
 }
-
 .ws-w {
   white-space: wrap;
 }
@@ -160,7 +154,6 @@
 .ws-bs {
   white-space: break-spaces;
 }
-
 .tt-1 {
   overflow: hidden;
   text-overflow: ellipsis;
