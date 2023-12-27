@@ -13,7 +13,6 @@
   outline: 0;
   transition: transform 0.3s ease-in-out;
 }
-
 @media (prefers-reduced-motion: reduce) {
   .offcanvas {
     transition: none;
